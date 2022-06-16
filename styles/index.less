@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
+  width: 25vw;
+  padding: 2vw;
+  border: 1px solid #f2f2f2;
+  color: #424242;
+  h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  & > div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 5px;
+    select {
+      padding: 10px;
+      width: 100%;
+    }
+    label {
+      padding: 10px;
+    }
+    input {
+      flex: 1;
+      padding: 10px;
+    }
+    textarea {
+      resize: vertical;
+    }
+    .checkboxes {
+      padding-top: 10px;
+    }
+  }
+  button {
+    margin-top: 2vh;
+    padding: 2vh;
+    background-color: #424242;
+    color: white;
+    border: none;
+    max-width: 40%;
+    margin: auto;
+  }
+}

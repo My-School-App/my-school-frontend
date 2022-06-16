@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link  rel="stylesheet" type="text/css" href="./styles/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form" >
+      <h3>Upload an assignment</h3>
+      <div>
+        <label for="class">Class </label>
+        <select name="class" id="class">
+          <option value="JSS1">JSS1</option>
+          <option value="JSS2">JSS2</option>
+          <option value="JSS3">JSS3</option>
+          <option value="SSS1">SSS1</option>
+          <option value="SSS2">SSS2</option>
+          <option value="SSS3">SSS3</option>
+        </select>
+        <div class="checkboxes" id="sub-classes">
+          <label for="A"
+            >A
+            <input type="checkbox" name="A" id="A" value="A" />
+          </label>
+          <label for="B">
+            B
+            <input type="checkbox" name="B" id="D" value="B" />
+          </label>
+          <label for="C">
+            C
+            <input type="checkbox" name="C" id="C" value="C" />
+          </label>
+          <label for="D"
+            >D
+            <input type="checkbox" name="D" id="D" value="D" />
+          </label>
+        </div>
+      </div>
+      <div>
+        <label for="due-date"> Due date </label>
+        <input type="date" id="due-date" />
+      </div>
+      <div>
+        <label for="assignment-file"> Assignment file </label>
+        <input type="file" name="assignment-file" id="assignment-file" />
+      </div>
+      <div>
+        <label for="instructions"> Instructions </label>
+        <textarea name="" id="" cols="30" rows="5" id="instructions"></textarea>
+      </div>
+      <button id="upload">Upload assignment</button>
+    </div>
+    <script src="./js/upload-assignments.js"></script>
+  </body>
+</html>
